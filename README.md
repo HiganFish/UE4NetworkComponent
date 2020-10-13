@@ -25,7 +25,7 @@ SendString和RecvAsString收发FString数据
 
 将头文件和cpp文件代码全选替换掉UE4自动生成的代码, 进行编译即可  详细使用见 UE4登录项目
 
-**详细使用见 UE4登录项目**
+**详细使用见 [UE4登录项目](https://github.com/HiganFish/UE4NetworkComponentSample)**
 
 
 这里是一个登录函数 简单的调用即可发送数据流
@@ -104,7 +104,7 @@ int ULoginManager::Login(FString Username, FString Password)
 
 然后编写自己body部分的反序列化代码
 
-**详细使用见 UE4登录项目**
+**详细使用见 [UE4登录项目](https://github.com/HiganFish/UE4NetworkComponentSample)**
 
 
 这里编写了一个简单的 登录数据包  自己仅需要编写下面的代码 就可以得到数据流
